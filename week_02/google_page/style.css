@@ -4,9 +4,21 @@
 }
 
 body {
-    width: 1141px;
-    height: 719px;
     font-family: arial,sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+li a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+li a:hover{
+    text-decoration: underline;
 }
 
 #header {
@@ -40,9 +52,46 @@ body {
     margin-bottom: 24px;
 }
 
+.RNN{
+    display: flex;
+    background-color: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+}
+
+.gsfi{
+    height: 34px !important;
+    line-height: 34px;
+    background-color: transparent;
+    border: none;
+}
+
+.gN08{
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+    min-width: 54px;
+}
+.gN08:hover{
+    border: 1px solid rgba(133, 133, 133, 0.25);
+}
+
 footer{
     margin-top: 80px;
-    background-color: rgb(242,242,242);
+    background-color: rgba(242,242,242);
 }
 
 .ffbar{
@@ -51,8 +100,12 @@ footer{
     font-size: 15px;
     border-top: 1px solid rgb(198, 201, 206);
     border-bottom: 1px solid rgb(198, 201, 206);
-    padding: 0 0 0 27px;
+    padding-left: 27px;
+    margin-left: 3px;
     text-align: left;
+}
+.sfbar span:first-child{
+    margin-left: 3px;
 }
 
 #fbar-right{
