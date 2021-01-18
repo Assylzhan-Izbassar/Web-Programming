@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0 110px;
+}
+
+#nav_content {
+    text-align: right;
+}
+
+.nav_item {
+    font-family: "Lora", Helvetica, Arial, sans-serif;
+    color: #1f2a2e;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 0;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav_item > span {
+    padding: 0 20px;
+}
+
+img {
+    width: 167.109px;
+    height: 34.984px;
+}
