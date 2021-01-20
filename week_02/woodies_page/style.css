@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    height: 100%;
+    background-image: linear-gradient(rgba(252, 240, 211, 1),rgba(243, 197, 82, 1));
+    background-repeat: no-repeat;
+    padding: 113px 150px;
+} */
+
+body {
+    max-width: 1152px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(62, 63, 67, 1);
+}
+
+/* Header */
+
+#header {
+    width: 100%;
+}
+#header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.icon_title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    word-spacing: 10px;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    width: 737px;
+    justify-content: space-between;
+}
+
+.nav_item:last-child {
+    position: relative;
+    border: 1px solid rgba(62, 63, 67, 1);
+    text-align: center;
+    width: 137px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.nav_item:last-child:hover {
+    border-color: rgba(218, 165, 32, 1);
+}
+
+.nav_item {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(34, 34, 34, 0.75);
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.nav_item:hover {
+    font-weight: bolder;
+    color:rgba(218, 165, 32, 1);
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1152px;
+    height: 720px;
+}
+
+.content {
+    width: 100%;
+    max-width: 952px;
+    margin: 0 auto;
+}
+
+/* Inner Content */
+
+.inner_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 376px;
+    margin: auto 0;
+    width: 504px;
+}
+
+.subtitle {
+    font-size: 36px;
+}
+
+.title {
+    color: rgba(49, 50, 53, 1);
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    width: 175px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(218, 165, 32, 1);
+    border-radius: 4px;
+}
+
+#colored {
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    top: 0;
+    left: 1132px;
+    background-color: rgba(249, 189, 189, 1);
+    z-index: -1;
+    border-radius: 0 0 0 150px;
+}
