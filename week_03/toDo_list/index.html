@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>To Do</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="assets/scripts/main_script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header_title">
+                    <div class="title_main">To Do</div>
+                    <div class="title_date"></div>
+                </div>
+                <div class="header_theme"></div>
+            </div>
+        </header>
+        
+        <section class="container">
+            <header class="section_header"><h1>To Do list</h1></header>
+            <form class="section_form">
+                <label for="task">Task:</label>
+                <div class="text_input">
+                    <input type="text" name="new_task" placeholder="New Task">
+                </div>
+                <a href="#" type="submit" onclick="addTask">Add</a>
+            </form>
+        </section>
+
+        <div class="tasks">
+            <ul class="tasks">
+                <li>
+                    <input type="checkbox">
+                    <p></p>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
