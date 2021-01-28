@@ -77,24 +77,45 @@ body {
     padding: 0 10px;
 }
 
-.section_form a {
+.btn {
     display: inline-block;
-    text-decoration: none;
-    padding: 10px 15px;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
     background-color:rgba(59, 99, 166, 0.75);
     color: white;
-    font-size: 12px;
-    border-radius: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.tasks > li{
+/* Task list */
+
+.tasks_item{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: .12fr .84fr .12fr;
     margin: 0 auto;
-    width: 75%;
+    margin-bottom: 20px;
+    width: 54.6%;
     text-align: center;
     list-style: none;
     background-color: transparent;
-    line-height: 34px;
     height: 42px;
-    border: 1px solid rgba(59, 99, 166, 1);
-    border-radius: 10px;
+}
+
+.tasks_item > div {
+    line-height: 42px;
+}
+
+.tasks_item > p {
+    line-height: 40px;
+    text-align: left;
+    font-size: 14px;
+    color:rgba(44, 82, 119, 0.705);
+}
+
+.delete_btn {
+    background-color: red;
+    border: 1px solid red;
 }

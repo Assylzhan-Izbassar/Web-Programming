@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-        <script src="assets/scripts/main_script.js"></script>
     </head>
     <body>
         <header class="header">
@@ -22,23 +21,20 @@
         
         <section class="container">
             <header class="section_header"><h1>To Do list</h1></header>
-            <form class="section_form">
+            <form class="section_form" name="section_form">
                 <label for="task">Task:</label>
                 <div class="text_input">
                     <input type="text" name="new_task" placeholder="New Task">
                 </div>
-                <a href="#" type="submit" onclick="addTask">Add</a>
+                <a id="#section_submit" class="btn" href="#" type="submit" onclick="addTask()">Add</a>
             </form>
         </section>
 
         <div class="tasks">
-            <ul class="tasks">
-                <li>
-                    <input type="checkbox">
-                    <p></p>
-                    <a href="#"></a>
-                </li>
+            <ul id="task_list" class="tasks">
             </ul>
         </div>
+
+        <script src="assets/scripts/main_script.js"></script>
     </body>
 </html>
