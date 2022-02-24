@@ -120,3 +120,7 @@ body {
     background-color: red;
     border: 1px solid red;
 }
+
+#delete_all {
+    margin:10px;
+}

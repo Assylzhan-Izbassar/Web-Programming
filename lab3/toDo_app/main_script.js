@@ -42,6 +42,11 @@ function addTask(){
     }
 }
 
+function deleteAll() {
+    var del_doc = document.getElementById("task_list");
+    del_doc.style.display = "none";
+}
+
 function deleteItem(){
     console.log('Here');
     let items = document.getElementsByClassName('delete_btn');
