@@ -53,6 +53,7 @@ ul {
     padding-bottom: 2px;
 }
 
+
 .main-nav ul li a:hover {
     border-bottom: 2px solid #262626;
 }
@@ -161,4 +162,12 @@ ul {
 
 .home-cards a:hover i {
     margin-left: 20px;
+}
+
+.fa-login {
+    width: 25px;
+    position: absolute;
+    height: 100%;
+    max-height: 25px;
+    margin: 0 10px 40px 10px;
 }
