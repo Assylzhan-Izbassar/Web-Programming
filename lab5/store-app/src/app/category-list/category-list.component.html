@@ -1,0 +1,15 @@
+<h2>Shop by Category</h2>
+
+<div class="category-list-container">
+  <div *ngFor="let category of categories">
+    <img src="{{ category.image }}">
+
+    <h3>
+      <a
+        [title]="category.name"
+        href="#">
+        {{ category.name }}
+      </a>
+    </h3>
+  </div>
+</div>

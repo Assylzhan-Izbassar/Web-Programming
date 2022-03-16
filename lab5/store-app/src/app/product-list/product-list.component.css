@@ -1,0 +1,17 @@
+h2 {
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.product-list-container {
+  margin: 0 auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.product-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
