@@ -46,7 +46,7 @@ export const categories = [
         price: 37.99,
         description: 'Original HP Ink is engineered to work with HP printers to provide consistent quality, reliability and value',
         image: 'https://m.media-amazon.com/images/I/71Llge105IL._AC_UL640_QL65_.jpg',
-        rating: 4.4,
+        rating: 4,
         url: 'https://www.amazon.com/HP-Cartridge-Black-3YM57AN-Tri-Color/dp/B08412PTS8/ref=lp_16225007011_1_4'
       },
       {
@@ -55,7 +55,7 @@ export const categories = [
         price: 37.97,
         description: 'Hides behind your TV: The all-new design plugs right into your TV with a simple setup',
         image: 'https://m.media-amazon.com/images/I/71wrIZujPIL._AC_UL640_QL65_.jpg',
-        rating: 4.2,
+        rating: 4,
         url: 'https://www.amazon.com/Roku-Streaming-Device-Vision-Controls/dp/B09BKCDXZC/ref=lp_16225007011_1_5'
       }
     ]
@@ -98,7 +98,7 @@ export const categories = [
         price: 28.99,
         description: 'Upgrade Pro Controller: This controller has NFC and Wake up from sleep features. This controller is fully compatible with Nintendo Switch, including all the keys of the original Switch. This easy to use controller is quick to connect and ergonomic.',
         image: '../assets/imgs/nintendo.jpg',
-        rating: 4.6,
+        rating: 4,
         url: 'https://www.amazon.com/dp/B09J4M22WW/ref=sspa_dk_detail_0?pd_rd_i=B09J4M22WW&pd_rd_w=dXr17&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=hDql2&pf_rd_r=SSAQY4SBFW2R5EYZCSGA&pd_rd_r=5eb845c8-51c2-44ac-a49b-866388824e50&s=videogames&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyM01HU1pGSThNVkFJJmVuY3J5cHRlZElkPUEwNDIyNTg5M0dMRUFVSklGT0JXTyZlbmNyeXB0ZWRBZElkPUEwMzY2OTEzM09KN1k1SjdDNlYwMyZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1'
       },
       {
@@ -107,7 +107,7 @@ export const categories = [
         price: 59.99,
         description: 'ELDEN RING, developed by FromSoftware Inc. and produced by BANDAI NAMCO Entertainment Inc., is a fantasy action-RPG and FromSoftware/s largest game to date, set within a world full of mystery and peril',
         image: 'https://m.media-amazon.com/images/I/81goNGEYm6L._AC_UL640_QL65_.jpg',
-        rating: 4.5,
+        rating: 4,
         url: 'https://www.amazon.com/Elden-Ring-PlayStation-5/dp/B09743F8P6/ref=lp_16225016011_1_11'
       }
     ]
@@ -123,7 +123,7 @@ export const categories = [
         price: 2.99,
         description: 'Design: This teether is right-sized for little hands, with built-in handles, and textures to help with developmental growth while satisfying the baby\'s need to soothe tender gums',
         image: 'https://m.media-amazon.com/images/I/81Il298A2BL._AC_UL640_QL65_.jpg',
-        rating: 4.5,
+        rating: 4,
         url: 'https://www.amazon.com/Infantino-Bites-Textured-Carrot-Teether/dp/B071HN7DYP/ref=lp_16225005011_1_1'
       },
       {
@@ -150,7 +150,7 @@ export const categories = [
         price: 23.99,
         description: '20 Non-Looping Sleep Sounds: White noise ,Brown noise, pink noise, blue noise, fan,brook, rain, ocean,bird and Bonfire,suitable for for Baby and Kids and Adults.',
         image: 'https://m.media-amazon.com/images/I/61yoN+jt5tL._AC_UL640_QL65_.jpg',
-        rating: 4.3,
+        rating: 4,
         url: 'https://www.amazon.com/Magicteam-Machine-Looping-Soothing-Function/dp/B07RWRJ4XW/ref=lp_16225005011_1_12'
       },
       {
@@ -175,7 +175,7 @@ export const categories = [
         price: 12.97,
         description: 'BEST VALUE - Save money when you buy more. Each package has 30 cards (10 in each blister pack) from specialty selected expansions of the Pokemon Trading Card Game. What new cards will you pull?',
         image: 'https://m.media-amazon.com/images/I/91lc8FOJW0L._AC_UL640_QL65_.jpg',
-        rating: 4.3,
+        rating: 4,
         url: 'https://www.amazon.com/Pokemon-TCG-Authentic-Expansion-Holofoils/dp/B001DIJ48C/ref=lp_16225015011_1_7'
       },
       {
@@ -184,7 +184,7 @@ export const categories = [
         price: 29.95,
         description: '50 Pc Fidget Toy Box Pack Set of Mini Popit Sensory Toys with Poppit Dimple and Party Favors for Girls, Boys, Kids, Autistic ADHD Autism Children including New Figetget Figet Spinners, Pop Tubes',
         image: 'https://m.media-amazon.com/images/I/91HcZgWYNzL._AC_UL640_QL65_.jpg',
-        rating: 4.2,
+        rating: 4,
         url: 'https://www.amazon.com/Poppers-Figetget-Spinners-Infinity-Autistic/dp/B0973R7JMP/ref=lp_16225015011_1_10'
       },
       {
@@ -193,7 +193,7 @@ export const categories = [
         price: 12.81,
         description: 'PUSH BUBBLE TOY: Just push the mower and have fun with bubbles in seconds! No batteries required. As the mower is pushed, it releases tons of incredible bubbles into the air.',
         image: 'https://m.media-amazon.com/images/I/81IUt+9I4VL._AC_UL640_QL65_.jpg',
-        rating: 4.3,
+        rating: 4,
         url: 'https://www.amazon.com/Sunny-Days-Entertainment-Bubble-N-Go-Solution/dp/B07QF5QLYS/ref=lp_16225015011_1_11'
       },
       {
@@ -202,7 +202,7 @@ export const categories = [
         price: 6.99,
         description: 'Let bath time ten-tickle your little one’s imagination! With Nuby’s Octopus Hoopla, getting clean has never been more fun',
         image: 'https://m.media-amazon.com/images/I/719i1aE6LGS._AC_UL640_QL65_.jpg',
-        rating: 4.3,
+        rating: 4,
         url: 'https://www.amazon.com/Nuby-Floating-Purple-Octopus-Interactive/dp/B083ZZSGLR/ref=lp_16225015011_1_12'
       },
       {
@@ -211,7 +211,7 @@ export const categories = [
         price: 7.99,
         description: '10 cans of creative fun – kids can get creative with just the right colors They need in this Play-Doh 10-pack of 2-ounce cans!',
         image: 'https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL640_QL65_.jpg',
-        rating: 4.1,
+        rating: 4,
         url: 'https://www.amazon.com/Play-Doh-Modeling-Compound-Non-Toxic-Exclusive/dp/B00JM5GW10/ref=lp_16225015011_1_5'
       }
     ]
