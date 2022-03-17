@@ -1,3 +1,9 @@
+h2 {
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+
 .category-list-container {
   margin: 0 auto;
   width: 95%;
@@ -6,7 +12,19 @@
   grid-gap: 20px;
 }
 
+.category-list-container-item {
+  border: 3px solid #BDBDBD;
+}
+
+.category-title {
+  display: flex;
+  justify-content: center;
+}
+
 .category-image {
   width: 100%;
+  margin-top: 10px;
   margin-bottom: 10px;
+  height: 20vh;
+  object-fit: contain;
 }

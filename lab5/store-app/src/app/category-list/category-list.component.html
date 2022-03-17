@@ -1,15 +1,17 @@
 <h2>Shop by Category</h2>
 
 <div class="category-list-container">
-  <div *ngFor="let category of categories">
-    <img src="{{ category.image }}">
+  <div class="category-list-container-item" *ngFor="let category of categories">
+    <img class="category-image" src="{{ category.image }}">
 
-    <h3>
-      <a
-        [title]="category.name"
-        href="#">
+    <h3 class="category-title">
+      <button [class.selected]="category===selectedCategory" [title]="category.name" (click)="onSelect(category)">
         {{ category.name }}
-      </a>
+      </button>
     </h3>
   </div>
+</div>
+
+<div *ngIf="selectedCategory">
+  <app-product-list [products]="selectedCategory.products"></app-product-list>
 </div>

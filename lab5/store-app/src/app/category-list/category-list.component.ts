@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { categories } from '../categories';
+import { Category, categories } from '../categories';
 
 @Component({
   selector: 'app-category-list',
@@ -10,6 +10,11 @@ import { categories } from '../categories';
 export class CategoryListComponent {
 
   categories = categories;
+  selectedCategory?: Category;
 
   constructor() { }
+
+  onSelect(category: Category): void {
+    this.selectedCategory = category;
+  }
 }
