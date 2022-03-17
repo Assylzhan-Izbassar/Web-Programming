@@ -13,19 +13,25 @@
       </a>
     </h3>
 
+    <h3>Price: {{ product.price | currency }} </h3>
+
     <p *ngIf="product.description">
       Description: {{ product.description }}
     </p>
 
     <p *ngIf="product.rating">
-      Rating: {{ product.rating }} stars
+      Likes: {{ product.rating }}
     </p>
-    <a href="https://t.me/share/url?url={{product.url}}&text={{product.name}}" target="_blank">
-      <button type="button" (click)="share()">
-        Share
-      </button>
-    </a>
+
+    <div class="product-list-container-buttons">
+      <a href="https://t.me/share/url?url={{product.url}}&text={{product.name}}" target="_blank">
+        <button type="button" (click)="share()"> Share </button>
+      </a>
+      <button class="like-button" type="button" (click)="productLikes(product)"> Like </button>
+      <button class="remove-button" type="button" (click)="removeProduct(product.id)"> Remove </button>
+    </div>
 
     <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 import { Product } from '../products';
 
@@ -10,6 +10,7 @@ import { Product } from '../products';
 export class ProductListComponent {
   // products = products;
   @Input() products!: Product[];
+  @Output() eventRemove = new EventEmitter();
 
   share() {
     console.log('The product has been shared!');
@@ -19,4 +20,11 @@ export class ProductListComponent {
     window.alert('You will be notified when the product goes on sale')
   }
 
+  productLikes(product: Product): void {
+    product.rating++;
+  }
+
+  removeProduct(id: number): void {
+    this.eventRemove.emit(id);
+  }
 }

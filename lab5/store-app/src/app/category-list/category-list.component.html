@@ -13,5 +13,5 @@
 </div>
 
 <div *ngIf="selectedCategory">
-  <app-product-list [products]="selectedCategory.products"></app-product-list>
+  <app-product-list [products]="selectedCategory.products" (eventRemove)="onRemove($event)"></app-product-list>
 </div>

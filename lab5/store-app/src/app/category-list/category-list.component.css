@@ -28,3 +28,29 @@ h2 {
   height: 20vh;
   object-fit: contain;
 }
+
+.category-title button:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: .1em;
+}
+
+.category-title button:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.category-title button.selected {
+  background: black;
+  color: white;
+}
+
+.category-title button.selected:hover {
+  background: #505050;
+  color: white;
+}
+
+.category-title button.selected:active {
+  background: black;
+  color: white;
+}

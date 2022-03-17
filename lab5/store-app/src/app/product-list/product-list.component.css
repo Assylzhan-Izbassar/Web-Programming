@@ -18,3 +18,17 @@ h2 {
   height: 20vh;
   object-fit: contain;
 }
+
+.product-list-container-buttons {
+  display: flex;
+}
+
+.remove-button {
+  background-color: #d9534f;
+  margin-left: 10px;
+}
+
+.like-button {
+  background-color: #ec7c84;
+  margin-left: 10px;
+}
