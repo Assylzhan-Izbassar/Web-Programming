@@ -20,8 +20,19 @@
     </p>
 
     <p *ngIf="product.rating">
-      Likes: {{ product.rating }}
+      Ratings: {{ product.rating }}
     </p>
+
+    <ul style="display: flex; list-style-type: none">
+      <li *ngFor="let x of rating_list">
+        <button style="background: yellow;
+        color: black;
+        border: 1px solid orange" type="button" (click)="changeScore(x, product)">
+          {{ x }}
+        </button>
+      </li>
+    </ul>
+
 
     <div class="product-list-container-buttons">
       <a href="https://t.me/share/url?url={{product.url}}&text={{product.name}}" target="_blank">

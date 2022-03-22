@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { Category, categories } from '../categories';
-import {Product, products} from "../products";
+import { Product, products } from "../products";
 
 @Component({
   selector: 'app-category-list',
@@ -14,7 +14,8 @@ export class CategoryListComponent {
   selectedCategory?: Category;
   products?: Product[];
 
-  constructor() { }
+  constructor() {
+  }
 
   onSelect(category: Category): void {
     this.selectedCategory = category;

@@ -54,3 +54,10 @@ h2 {
   background: black;
   color: white;
 }
+
+.test-block {
+  width: 20px;
+  height: 20px;
+  color: blue;
+}
+
