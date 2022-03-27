@@ -13,10 +13,12 @@ export class AlbumDetailComponent implements OnInit {
 
   album?: Album;
   loaded?: boolean;
+  saving?: boolean;
 
   constructor(private route: ActivatedRoute,
               private location: Location,
-              private albumsService: AlbumsService) { }
+              private albumsService: AlbumsService) {
+  }
 
   ngOnInit(): void {
     this.getAlbum();
@@ -37,8 +39,10 @@ export class AlbumDetailComponent implements OnInit {
   }
 
   updateTitle(album: Album) {
+    this.saving = true;
     this.albumsService.updateAlbum(album).subscribe((updated) => {
       console.log(updated);
+      this.saving = false;
     });
   }
 
