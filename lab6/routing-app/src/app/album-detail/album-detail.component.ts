@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Album, ALBUMS} from "../models";
+import {Album} from "../models";
 import {ActivatedRoute} from "@angular/router";
-import {Location} from "@angular/common";
 import {AlbumsService} from "../albums.service";
+import {Location} from "@angular/common";
 
 @Component({
   selector: 'app-album-detail',
@@ -12,6 +12,7 @@ import {AlbumsService} from "../albums.service";
 export class AlbumDetailComponent implements OnInit {
 
   album?: Album;
+  loaded?: boolean;
 
   constructor(private route: ActivatedRoute,
               private location: Location,
@@ -27,7 +28,17 @@ export class AlbumDetailComponent implements OnInit {
 
     this.route.paramMap.subscribe((params) => {
       const id = Number(params.get('id'));
-      this.album = this.albumsService.getAlbum(id);
+      this.loaded = false;
+      this.albumsService.getAlbum(id).subscribe((x) => {
+          this.album = x;
+          this.loaded = true;
+      });
+    });
+  }
+
+  updateTitle(album: Album) {
+    this.albumsService.updateAlbum(album).subscribe((updated) => {
+      console.log(updated);
     });
   }
 

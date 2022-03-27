@@ -1,0 +1,15 @@
+<div>
+  <button type="button" (click)="goBack()">Return back</button>
+</div>
+
+<div *ngIf="loaded">
+  <div *ngIf="photos">
+    <ul>
+      <li *ngFor="let photo of photos">
+        <img src="{{photo.url}}" alt="{{photo.title}}">
+      </li>
+    </ul>
+  </div>
+</div>
+
+<p *ngIf="!loaded">Photos are loading...</p>
