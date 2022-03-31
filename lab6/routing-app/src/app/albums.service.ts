@@ -6,6 +6,9 @@ import { Observable } from "rxjs";
 @Injectable({
   providedIn: 'root'
 })
+// promise
+// callback
+
 export class AlbumsService {
 
   BASE_URL = 'https://jsonplaceholder.typicode.com/';
