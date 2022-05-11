@@ -23,7 +23,6 @@ export class VacanciesService {
 
   getVacanciesByCompany(id: number): Observable<Vacancy[]> {
     // const url = `${this.vacancyUrl}/?company=${id}`;
-    const url = this.BASE_URL + 'api/companies/${id}/vacancies/';
-    return this.http.get<Vacancy[]>(url);
+    return this.http.get<Vacancy[]>(this.BASE_URL + `api/companies/${id}/vacancies/`);
   }
 }
